@@ -66,7 +66,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='nfl college football data epa statistics web scraping',
+    keywords='college football data basketball recruiting web scraping',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
