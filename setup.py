@@ -12,9 +12,9 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='recruitR-py',
+    name='recruitR',
 
-    project_name='recruitR-py',
+    project_name='recruitR',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
@@ -82,6 +82,11 @@ setup(
     # https://packaging.python.org/en/latest/requirements.html
     install_requires=['numpy>=1.13.0',
                       'pandas >= 1.0.3',
+                      'certifi >= 14.05.14',
+                      'six >= 1.10',
+                      'python_dateutil >= 2.5.3',
+                      'setuptools >= 21.0.0',
+                      'urllib3 >= 1.15.1',
                       'beautifulsoup4>=4.4.0',
                       'requests>=2.18.1',
                       'lxml>=4.2.1',
