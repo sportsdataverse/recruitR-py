@@ -33,7 +33,7 @@ setup(
 
     # Author details
     author=['Saiem Gilani', 'Bud Davis'],
-    author_email='saiem.gilani@gmail.com',
+    author_email=['saiem.gilani@gmail.com','jbuddavis@gmail.com'],
 
     # Maintainer
     maintainer='Saiem Gilani',
