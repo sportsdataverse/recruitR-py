@@ -29,7 +29,7 @@ pip install -e .
 
 ## **Citations**
 
-To cite the [**`sportsdataverse-py`**](https://sportsdataverse-py.sportsdataverse.org) Python package in publications, use:
+To cite the [**`recruitR-py`**](https://recruitR-py.sportsdataverse.org) Python package in publications, use:
 
 BibTex Citation
 ```bibtex
