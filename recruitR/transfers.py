@@ -32,7 +32,11 @@ def tfs_transfers(sport_key: int, year: int, list_type: int,
         headers (dict, optional): Headers. Defaults to `headers_gen()`.
 
     Returns:
-        pd.DataFrame: Dataframe of transfer portal player rankings data.
+        dict: Dictionary of transfer players and pagination information.
+            {
+                players: pd.DataFrame,
+                pagination: dict
+            }
 
     """
     params = {

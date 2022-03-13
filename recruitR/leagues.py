@@ -13,7 +13,7 @@ def tfs_leagues(page_size: int, query=None, headers = None):
         page_size (int, optional): Page Size. Defaults to 500.
         headers (dict, optional): Headers. Defaults to `headers_gen()`.
     Returns:
-        pd.DataFrame: Dataframe of transfer portal team rankings.
+        pd.DataFrame: Dataframe of leagues information.
 
     """
     params = {
@@ -29,5 +29,3 @@ def tfs_leagues(page_size: int, query=None, headers = None):
     resp = pd.json_normalize(resp_json)
     resp = resp.replace({np.nan: 0})
     return resp
-
-print(tfs_leagues(page_size=50))

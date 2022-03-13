@@ -15,7 +15,11 @@ def tfs_team_schedule(team_key: int, year: int, page=1, page_size = 100, headers
         page_size (int, optional): Page Size. Defaults to 500.
         headers (dict, optional): Headers. Defaults to `headers_gen()`.
     Returns:
-        pd.DataFrame: Dataframe of transfer portal team rankings.
+        dict: Dictionary of team schedule and pagination information.
+            {
+                schedule: pd.DataFrame,
+                pagination: dict
+            }
 
     """
     params = {

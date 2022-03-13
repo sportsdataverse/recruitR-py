@@ -15,7 +15,11 @@ def tfs_recruits(sport_key: int, year: int, min_date = None, page = 1, page_size
         headers (dict, optional): Headers. Defaults to `headers_gen()`.
 
     Returns:
-        pd.DataFrame: Dataframe of transfer portal player rankings data.
+        dict: Dictionary of recruit rankings and pagination information.
+            {
+                players: pd.DataFrame,
+                pagination: dict
+            }
 
     """
     params = {

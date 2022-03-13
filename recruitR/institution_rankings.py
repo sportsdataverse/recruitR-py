@@ -30,7 +30,11 @@ def tfs_institution_rankings(sport_key: int, year: int, institution_key = None, 
         page_size (int, optional): Page Size. Defaults to 50.
         headers (dict, optional): Headers. Defaults to `headers_gen()`.
     Returns:
-        pd.DataFrame: Dataframe of institution rankings.
+        dict: Dictionary of institution rankings and pagination information.
+            {
+                results: pd.DataFrame,
+                pagination: dict
+            }
 
     """
     params = {

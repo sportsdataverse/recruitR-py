@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 def tfs_positions(year: int, ranking_key = None, sport_key = None, headers = None):
-    """tfs_transfer_portal_team_rankings
+    """tfs_positions
 
     Args:
         ranking_key (int): The Key of the Ranking to lookup
@@ -14,7 +14,7 @@ def tfs_positions(year: int, ranking_key = None, sport_key = None, headers = Non
         year (int): Year
         headers (dict, optional): Headers. Defaults to `headers_gen()`.
     Returns:
-        pd.DataFrame: Dataframe of transfer portal team rankings.
+        pd.DataFrame: Dataframe of positions.
 
     """
     params = {
