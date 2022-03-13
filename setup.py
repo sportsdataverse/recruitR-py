@@ -12,9 +12,9 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='recruitR',
+    name='recruitr',
 
-    project_name='recruitR',
+    project_name='recruitr',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
@@ -32,7 +32,7 @@ setup(
     },
 
     # Author details
-    author='Saiem Gilani',
+    author=['Saiem Gilani', 'Bud Davis'],
     author_email='saiem.gilani@gmail.com',
 
     # Maintainer
