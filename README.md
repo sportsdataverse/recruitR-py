@@ -33,10 +33,10 @@ To cite the [**`sportsdataverse-py`**](https://sportsdataverse-py.sportsdatavers
 
 BibTex Citation
 ```bibtex
-@misc{gilani_sdvpy_2021,
-  author = {Gilani, Saiem},
-  title = {sportsdataverse-py: The SportsDataverse's Python Package for Sports Data.},
-  url = {https://sportsdataverse-py.sportsdataverse.org},
+@misc{davis_gilani_2021,
+  author = {Bud Davis and Saiem Gilani},
+  title = {recruitR-py: The SportsDataverse's Python Package for Sports Recruiting Data.},
+  url = {https://recruitr-py.sportsdataverse.org},
   season = {2021}
 }
 ```
