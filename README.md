@@ -31,7 +31,7 @@ pip install -e .
 
 To cite the [**`recruitR-py`**](https://recruitR-py.sportsdataverse.org) Python package in publications, use:
 
-BibTex Citation
+BibTeX Citation
 ```bibtex
 @misc{davis_gilani_2021,
   author = {Bud Davis and Saiem Gilani},
